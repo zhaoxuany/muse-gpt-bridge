@@ -1,0 +1,9 @@
+# 桥的依赖, 全部 pin 死.
+# 版本 = 本地工作台 venv 里实测通过的版本 (2026-11-17, pytest 7 项全过),
+# pip index 已确认这些版本存在.
+# Python 须 >=3.10 (server.py 用了 str | None 注解).
+# SIWC uses the same SDK version as the verified Windows runner.
+fastapi==0.115.6
+uvicorn==0.34.0
+pydantic==2.14.3
+openai==3.52.0

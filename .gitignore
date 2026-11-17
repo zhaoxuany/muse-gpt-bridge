@@ -1,0 +1,27 @@
+# Build and runtime artifacts — never commit
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Credentials and secrets — never commit
+.env
+*.env
+*.pem
+*.key
+siwc_tokens.json
+.muse-gpt-bridge/
+*.log
+
+# Local acceptance runs
+acceptance.sqlite
+siwc_test_result.json
+
+# Internal archives and private material — never commit
+original-v010/
+windows-local-r1/
